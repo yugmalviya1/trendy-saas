@@ -7,7 +7,6 @@ import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
-import Team from "@/components/Team";
 import { getAllPosts } from "@/utils/markdown";
 
 export const metadata = {
@@ -27,7 +26,6 @@ export default function HomePage() {
       <CallToAction />
       <Pricing />
       <Faq />
-      <Team />
       <HomeBlogSection posts={posts} />
       <Contact />
     </main>
